@@ -1,0 +1,201 @@
+/* UNIVERSAL CSS (across all pages)*/
+/* This is done so pls don't touch! */
+
+a {
+    color: rgb(22, 22, 22);
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(231, 242, 208);
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.online-order {
+    background-color: rgb(211, 243, 143);
+    border-radius: 25px;
+    padding: 11px;
+}
+
+li div.online-order:hover {
+    background-color: rgb(247, 183, 123);
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin: 0px;
+    font-variant: small-caps;
+    font-family: 'Nunito', sans-serif;
+    position: fixed;
+    padding: 10px;
+    z-index: 90;
+}
+
+.nav-items ul {
+    display: flex;
+    list-style: none;
+    justify-items: center;
+    align-items: center;
+}
+
+.nav-items ul li {
+    margin-left: 50px;
+}
+
+.nav-items ul li:hover {
+    text-decoration: underline rgb(22, 22, 22) solid;
+}
+
+.nav-items ul :nth-child(3):hover {
+    text-decoration: none;
+}
+
+.nav img {
+    height: 85px;
+}
+
+.nav .logo {
+    display: flex;
+}
+
+.nav .logo h1 {
+    margin-left: 20px;
+}
+
+div.hamburger {
+    display: none;
+    margin: auto;
+}
+
+div#drop-down {
+    display: none;
+    position: fixed;
+    top: 106px;
+    gap: 15px;
+    width: 100%;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    opacity: 95%;
+}
+
+.drop-down-items {
+    list-style: none;
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.drop-down-items hr {
+    width: 30%;
+}
+
+.drop-down-items li {
+    font-variant: small-caps;
+}
+
+.drop-down-items li:hover {
+    text-decoration: underline rgb(22, 22, 22) solid;
+}
+
+@media only screen and (max-width: 740px) {
+    div.nav-items {
+        display: none;
+    }
+    div.hamburger {
+        display: block;
+        margin: 0px;
+    }
+    img.hamburger {
+        width: 25px;
+        height: 25px;
+    }
+    .nav .logo h1 {
+        margin-left: 10px;
+    }
+    .nav img.bear {
+        height: 70px;
+    }
+    div.logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    div.back-to-top {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 740px) {
+    div#drop-down {
+        display: none;
+    }
+    .drop-down-items {
+        display: none;
+    }
+}
+
+/* BACK TO TOP BUTTON */
+div.back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: white;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+    z-index: 80;
+    height: 60px;
+    width: 60px;
+}
+
+div.back-to-top a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+div.back-to-top img {
+    height: 30px;
+    margin: auto;
+}
+
+div.back-to-top p {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.back-to-top:active {
+    background-color: rgb(211, 243, 143);
+}
+
+/* FOOTER  */
+div.footer {
+    background-color: white;
+    margin: 0px;
+    display: flex;
+    height: 125px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.footer-bear {
+    height: 60px;
+}

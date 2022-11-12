@@ -1,0 +1,149 @@
+h2 {
+    font-size: 60px;
+    font-family: nunito;
+    color: #F1E9D5;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    top: 400px;
+    font-weight: bold;
+  
+   
+}
+
+h3 {
+    font-size: 40px;
+    font-family: nunito;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.container{
+    width:100%;
+  overflow:hidden;
+
+}
+.about_us_image{
+       display: flex;
+    justify-content: center;
+    
+}
+
+
+.story_section {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+padding-bottom: 30px;
+}
+    
+.story_box {
+    background: #F1E9D5;
+width: 800px;
+height: 425px;
+border: solid 4px #252424;
+border-radius: 20px;
+text-align: center;
+ padding-bottom: 30px;
+ padding-left: 20px;
+
+
+
+}
+
+.inner_story_box {
+    padding: 10px;
+    width:100%;
+    left:50%;
+ columns: 2;   
+ column-gap: 40px;
+
+}
+
+.inner_story_pic {
+    padding: 20px;
+    width:50%;
+    left:50%;
+    padding-top: 70px;
+    
+}
+
+.location_hours_section {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    
+}
+
+.location_hours_box {
+    background: #F1E9D5;
+    width: 800px;
+    height: 425px;
+    border: solid 4px #252424;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 12px;
+padding-bottom: 30px;
+padding-left: 20px;
+}
+
+.inner_location_hours_box {
+    padding: 20px;
+    width:100%;
+    left:50%;
+    column-count: 2;
+    column-gap: 40px;
+ }
+
+.inner_hours_pic {
+    padding-top: 70px;
+    width:50%;
+    left:50%;
+    
+    
+}
+
+.finest_section {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    
+}
+
+.finest_box {
+    background: #F1E9D5;
+    width: 800px;
+    height: 425px;
+    border: solid 4px #252424;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.inner_finest_box {
+    padding: 20px;
+    width:100%;
+    left:50%;
+    column-count: 2;
+    column-gap: 40px;
+   }
+
+.inner_finest_pic {
+    padding-top: 70px;
+    width:50%;
+    left:50%;
+    
+}
+   
+.bear-pic {
+    background-color: white;
+    background-blend-mode: multiply;
+    display:flex;
+    justify-content: center;
+
+}

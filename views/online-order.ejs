@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea n Me | Online Order</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="online-order-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- JOEY'S NAV BAR -->
+    <div class="nav">
+        <div class="logo">
+            <a href="/"><img src="assets/bear-brown.png" alt="" class="bear"></a>
+            <h1><a href="/">Tea n Me</a></h1>
+        </div>
+        <div class="hamburger" onclick="burgerOn()">
+            <img src="assets/hamburger.png" alt="" class="hamburger">
+        </div>
+
+        <div class="nav-items">
+            <ul>
+                <li>
+                    <a href="/">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="/menu">
+                        Menu
+                    </a>
+                </li>
+                <li>
+                    <a href="/about-us">
+                        About Us
+                    </a>
+                </li>
+                <li>
+                    <div class="online-order">
+                        <a href="/online-order">
+                            Order Online
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="drop-down">
+        <ul class="drop-down-items">
+            <li>
+                <div class="drop-home">
+                    <a href="/">home</a>
+                </div>
+            </li>
+            <hr>
+            <li>
+                <div class="drop-menu">
+                    <a href="/menu">menu</a>
+                </div>
+            </li>
+            <hr>
+            <li>
+                <div class="drop-about">
+                    <a href="/about-us">about us</a>
+                </div>
+            </li>
+            <hr>
+            <li>
+                <div class="drop-order">
+                    <a href="/online-order">order online</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="back-to-top">
+        <a href="#top">
+            <img src="assets/chevron-up-solid.svg" alt="">
+            <p>Back to top</p>
+        </a>
+    </div>
+
+    <script>
+        function burgerOn() {
+            var x = document.getElementById("drop-down");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        } 
+    </script>
+    <!-- END OF NAV BAR -->
+
+    <!-- SARA & JENNY'S ONLINE ORDER PAGE -->
+
+    <div class="order">
+        <div class="order-text">
+            <h1>
+                ORDER ONLINE
+            </h1>
+
+        </div>
+    </div>
+
+    <div class="top-pic">
+        <img class="main-pic" src="assets/AdobeStock_141597327_Preview.jpeg" alt="">
+    </div>
+
+    <div class="flexbox-container">
+        <div class="flexbox-container-1">
+            <div class="flexbox-items flexbox-item-1">
+
+                <h1 class="title">FLAVOURS</h1>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Mango</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Passionfruit</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Honeydew</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Lycee</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Strawberry</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Grapefruit</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Black Tea</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Matcha</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Yakult</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Oreo</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Brown Sugar</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Earl Grey</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Honey Milk</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Black Tea</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Coffee</label><br>
+
+            </div>
+
+            <div class="flexbox-items flexbox-item-2">
+                <a
+                href="https://morethankyounotes.com/wp-content/uploads/2017/02/Customer-Thank-You-Note-1.png.webp">
+                <button class="flexbox-item-2" type="button"> Add to Order!</button> </a>
+            </div>
+           
+        </div>
+
+
+        <div class="flex-box-container-2">
+            <div class="flexbox-items flexbox-item-3">
+
+                <h1 class="title"> TOPPINGS </h1>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Tapioca</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Brown Sugar Pearls</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Grass Jelly</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Pudding</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Cheese</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Brown Sugar</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Mango Jelly</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Coconut Jelly</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Strawberry Jelly</label><br>
+
+                <input type="checkbox" id="menu_item" name="menu1" value="menu">
+                <label for="menu1">Aloe</label><br>
+
+             
+
+            </div>
+
+            <div class="flexbox-items flexbox-item-4">
+                <div class="box">
+                    <div class="ice">
+                        <h3 class="title">ICE LEVEL</h3>
+
+                        <ul class="horizontal-list">
+
+
+                            <li>
+                                <input type="checkbox" class="checkbox" id="no-ice" />
+                                <label for="no-ice">100%</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" class="checkbox" id="no-ice" />
+                                <label for="no-ice">75%</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" class="checkbox" id="no-ice" />
+                                <label for="no-ice">50%</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" class="checkbox" id="no-ice" />
+                                <label for="no-ice">25%</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checkbox" id="no-ice" />
+                                <label for="no-ice">0%</label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="title-sugar">
+                        <h3 class="sugar">SUGAR LEVEL</h3>
+
+                        <ul class="horizontal-list">
+                            <li>
+                                <input type="checkbox" class="checkbox" id="no-ice" />
+                                <label for="no-ice">120%</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" class="checkbox" id="no-ice" />
+                                <label for="no-ice">100%</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" class="checkbox" id="no-ice" />
+                                <label for="no-ice">75%</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" class="checkbox" id="no-ice" />
+                                <label for="no-ice">50%</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" class="checkbox" id="no-ice" />
+                                <label for="no-ice">25%</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checkbox" id="no-ice" />
+                                <label for="no-ice">0%</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+
+<!-- END OF ONLINE ORDER -->
+
+    <!-- JOEY'S FOOTER -->
+    <footer>
+        <div class="footer">
+            <div class="footer-logo">
+                <img src="assets/bear-brown.png" alt="" class="footer-bear">
+            </div>
+            <div class="copyright">
+                <p>♥ Made with love by Corey, Harmanpreet, Jenny, Joey, Kaitlyn, Sara ♥</p>
+            </div>
+        </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
+    </body>
+    </html>

@@ -1,0 +1,268 @@
+h2 {
+    font-size: 50px;
+}
+
+body {
+    background-color: rgb(231, 242, 208);
+    height: 100%;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+    animation-name: backgroundChange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Hero Image Section */
+.hero_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero_image {
+    background: white !important;
+    margin-top: 150px;
+    padding: 10px 10px 10px 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border: solid 5px #252424;
+    border-radius: 25px;
+}
+
+/* Slogan Area */
+
+.slogan_section {
+    display: flex;
+    justify-content: center;
+    padding: 27px 0px 100px 0px;
+}
+
+.slogan_text {
+    width: 50%;
+    font-family: nunito;
+    text-align: center;
+}
+
+.slogan_text > p {
+    font-size: 30px;
+}
+
+/* Location Section */
+
+.location_section {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.location_box {
+    background: #F1E9D5;
+    width: 800px;
+    height: 820px;
+    border: solid 5px #252424;
+    border-radius: 25px;
+    text-align: center;
+}
+
+/* Menu Section */
+.menu_section {
+    display: flex;
+    justify-content: center;
+    height: 234px;
+}
+
+.front_page_menu_image {
+    width: 600px;
+    border: solid 5px #252424;
+    border-radius: 25px;
+    margin: -4px;
+    height: 100%;
+}
+
+.menu_container {
+    display: flex;
+    justify-content: flex-end;
+    width: 980px;
+    background: #F1E9D5;
+    border: solid 5px #252424;
+    border-radius: 32px;
+    position: absolute;
+    right: -1000px;
+    animation-name: menuPopIn;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+.menu_title {
+    padding-right: 75px;
+    padding-top: 35px;
+}
+
+.order_section {
+    display: flex;
+    justify-content: center;
+    padding: 58px 0px 0px 0px;
+    height: 236px;
+}
+
+.front_page_order_image {
+    width: 600px;
+    border: solid 4px #252424;
+    border-radius: 25px;
+    margin: -4px;
+    height: 100%;
+}
+
+.order_container {
+    display: flex;
+    width: 980px;
+    background: #F1E9D5;
+    border: solid 5px #252424;
+    border-radius: 32px;
+    position: absolute;
+    left: -1000px;
+    animation-name: orderOnlinePopIn;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+.order_title {
+    padding-left: 115px;
+}
+
+.social_icon_container {
+    text-align: center;
+}
+
+.social_list {
+    list-style: none;
+}
+
+.social_section {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 58px;
+}
+
+.social_list {
+    display: flex;  
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px !important;
+}
+
+.social_image {
+    width: 100px;
+}
+
+.social_images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 58px;
+}
+
+.social_images a img {
+    width: 228px;
+    list-style: none;
+}
+
+.social_image_section_1 {
+    padding-bottom: 54px;
+}
+
+.image_container {
+    border: solid 4px #252424;
+    border-radius: 10px;
+}
+
+.social_image_section_2 {
+    padding-bottom: 200px;
+}
+
+.map {
+    border: solid 5px #252424;
+    border-radius: 10px;
+}
+
+.days {
+    padding: 30px;
+}
+
+@keyframes backgroundChange {
+    5% {
+        background-color: #C5D79F;
+    }
+    10% {
+        background-color: #C5D79F;
+    }
+    15% {
+        background-color: #C5D79F;
+    }
+    20% {
+        background-color: #C5D79F;
+    }
+    25% {
+        background-color: #C5D79F;
+    }
+    30% {
+        background-color: #D7BA9F;
+    }
+    35% {
+        background-color: #D7BA9F;
+    }
+    40% {
+        background-color: #D7BA9F;
+    }
+    45% {
+        background-color: #D7BA9F;
+    }
+    50% {
+        background-color: #D7BA9F;
+    }
+    55% {
+        background-color: #DEC5E2;
+    }
+    60% {
+        background-color: #DEC5E2;
+    }
+    65% {
+        background-color: #DEC5E2;
+    }
+    70% {
+        background-color: #DEC5E2;
+    }
+    75% {
+        background-color: #DEC5E2;
+    }
+    80% {
+        background-color: #EB854B;
+    }
+    85% {
+        background-color: #EB854B;
+    }
+    90% {
+        background-color: #EB854B;
+    }
+    95% {
+        background-color: #EB854B;
+    }
+    100% {
+        background-color: #EB854B;
+    }
+}
+
+@keyframes orderOnlinePopIn {
+    100% {
+        left: 20.5%;
+    }   
+}
+
+@keyframes menuPopIn {
+    100% {
+        right: 20%;
+    }
+}
