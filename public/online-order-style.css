@@ -9,23 +9,43 @@ ul {
     padding: 0
 }
 
+body {
+    background-color: #E7F2D0;
+}
+
+
 .order-text {
-    position: absolute;
-    width: 50%;
+display: flex;
     height: 110px;
-    left: 500px;
-    top: 224px;
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
-    line-height: 136px;
+    line-height: 1436px;
+    margin-left: 14%;
     color: #000000;
 }
 
 
+.top-pic {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.main-pic {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1515px;
+    height: 709px;
+    line-height: 1436px;
+    margin-left: 1%;
+    border: 5px solid #000000;
+    border-radius: 30px;
+}
+
+
 .flexbox-container {
-    margin-top: 70%;
     margin-left: 10%;
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +63,7 @@ ul {
     border: 5px solid #000000;
     border-radius: 30px;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .flexbox-item-1 {
@@ -92,7 +112,9 @@ ul {
 
 
 
-
+.ice{
+    margin-top: 5%;
+}
 
 
 
@@ -108,20 +130,6 @@ ul {
 }
 
 
-.top-pic {
-    margin-top: 70%;
-    margin-left: 10%;
-}
-
-.main-pic {
-    position: absolute;
-    width: 1515px;
-    height: 709px;
-    left: 40px;
-    top: 224px;
-    border: 5px solid #000000;
-    border-radius: 30px;
-}
 
 
 .horizontal-list {
